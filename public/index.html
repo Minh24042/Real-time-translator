@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation App</title>
+    <style>
+        /* Basic styles for layout */
+        #translateTextBtn, #translateVideoBtn {
+            margin: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #translatedText, #videoTranslationOutput {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Translation App</h1>
+
+    <!-- Text Translation Section -->
+    <h2>Translate Text</h2>
+    <div id="originalText">Hello, world!</div>
+    <button id="translateTextBtn">Translate Text</button>
+    <div id="translatedText">Translated text will appear here.</div>
+
+    <!-- Video Translation Section -->
+    <h2>Translate Video File</h2>
+    <input type="file" id="videoFile" accept="video/*" />
+    <button id="translateVideoBtn">Translate Video</button>
+    <div id="videoTranslationOutput">Video translation will appear here.</div>
+
+    <!-- Link to script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
