@@ -1,10 +1,10 @@
 let translationActive = false;
 
 // Set the Google Translation API endpoint and your API keys
-const GOOGLE_TRANSLATE_API_URL = 'https://translation.googleapis.com/language/translate/v2';
-const GOOGLE_SPEECH_TO_TEXT_API_URL = 'https://speech.googleapis.com/v1/speech:recognize';
-const API_KEY_TRANSLATE = 'AIzaSyCUPyaew38-7prMs799Y4BZYSBLfb__m6A'; // Your Translation API key
-const API_KEY_SPEECH = 'AIzaSyCQVk4NXf_E1ynGYFinstaYkY-anRW7ofY'; // Your Speech-to-Text API key
+const GOOGLE_TRANSLATE_API_URL = '';
+const GOOGLE_SPEECH_TO_TEXT_API_URL = '';
+const API_KEY_TRANSLATE = ''; // Your Translation API key
+const API_KEY_SPEECH = ''; // Your Speech-to-Text API key
 
 // Function to add a translation item to the sidebar
 function addTranslationItem(original, translated) {
